@@ -1,0 +1,45 @@
+Welcome To Your First Day in Java.
+---------------------------------------------
+First we will have to teach you the basics of the linux terminal. 
+---------------------------------------------
+
+Here are the linux commands that you will need to familiarize yourself with before we continue.
+
+--------------
+Git          |
+--------------
+
+REMEMBER YOU CAN ALWAYS LEARN MORE ABOUT THESE SETS OF COMMANDS BY TYPING IN: git --help
+
+-git init
+	-Initializes the git repository
+-git add /filepath/
+	-Adds files to the repository online
+-git commit -m "Comment on what you added to the code"
+
+-git push
+	-Uploads what you have in your folder to the online repository
+	-It will ask you for your username. 
+-git clone https://github.username/repositoryname
+	-Clones the repository from online from a particular user.
+
+---------
+Linux   |
+---------
+
+IF YOU NEED HELP TYPE IN: man cd OR man any command to find out more about it
+
+-cd
+	-Changes directories
+-ls
+	-Lists everything in the directory
+-nano
+	-Opens up a terminal based text editor
+-vim
+	-Opens up another powerful terminal based text editor
+javac
+	-Compiles .java files 
+java 
+	-Runs java class files
+
+
