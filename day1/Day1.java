@@ -56,10 +56,16 @@ public class Day1
 
 	}
 
+	/*
+	Things I want to implement into this code. 
+
+	1) 
+	*/
 	public void tryPrinting(Scanner kb)
 	{
 		String answer;
-
+		String name = "Laine Tomsha";
+			/*This is question 1 */
 		System.out.println("Remember type in the exact command you would if you 
 							were typing it into the source code.");
 		System.out.println("After five tries on each question you will be sent 
@@ -68,7 +74,58 @@ public class Day1
 		System.out.println("Question 1: Enter the line of code to print out \"
 		                   Hello World\": ");
 	 					answer = kb.nextLine();
-	 	
+	 		if(answer.equals("System.out.println(\"Hello World\");");
+	 		{
+	 			System.out.println("Correct!");
+	 		}
+	 		else
+	 		{
+	 			System.out.println("Wrong try again!");
+	 		}
+	 		/*This is question 2*/
+	 	System.out.println("Question 2: Enter the line of code to print out \"Java is cool\" ");
+	 		answer = kb.nextLine();
+	 		if(answer.equals("System.out.println(\"Java is cool\");");
+	 		{
+	 			System.out.println("Correct!");
+	 		}
+	 		else
+	 		{
+	 			System.out.println("Wrong try again!");
+	 		}
+	 		/*This is question 3 */
+	 	System.out.println("Question 3: Enter the line of code to print out your name");
+	 		answer = kb.nextLine();
+	 		if(answer.equals("System.out.println(\"Laine Tomsha\");");
+	 		{
+	 			System.out.println("Correct!");
+	 		}
+	 		else
+	 		{
+	 			System.out.println("Wrong try again!");
+	 		}
+	 		/*This is question 4 */
+	 	System.out.println("Question 4: Enter the line of code to print out your mother's name");
+	 	answer = kb.nextLine();
+	 		if(answer.equals("System.out.println(\"Heather Tomsha\");");
+	 		{
+	 			System.out.println("Correct!");
+	 		}
+	 		else
+	 		{
+	 			System.out.println("Wrong try again!");
+	 		}
+	 		/*This is question 5 */
+	 	System.out.println("Question 5: Enter the line of code to print out your age");
+	 	answer = kb.nextLine();
+	 		if(answer.equals("System.out.println(\"20\");");
+	 		{
+	 			System.out.println("Correct!");
+	 		}
+	 		else
+	 		{
+	 			System.out.println("Wrong try again!");
+	 		}
 
 	}
 
